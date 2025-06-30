@@ -21,6 +21,8 @@
 # Sample configuration for the landing page theme
 # Replace these values with your own!
 
+baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
+
 name: John Doe
 email: your@email.com
 tagline: "A short tagline about yourself."
