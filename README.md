@@ -8,7 +8,7 @@ A clean, modern, and easy-to-use landing page template for Jekyll. Perfect for p
 > This ensures your CSS, images, and other assets load correctly. See the instructions below!
 
 ## 🚀 Live Demo
-[Check out a live demo here!](https://your-demo-url.com)
+[Check out a live demo here!](https://kaskavalci.github.io/simple-landing-page/)
 
 ## Features
 - Responsive, modern design
@@ -21,7 +21,7 @@ A clean, modern, and easy-to-use landing page template for Jekyll. Perfect for p
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/simple-landing-page.git my-portfolio
+   git clone https://github.com/kaskavalci/simple-landing-page.git my-portfolio
    cd my-portfolio
    ```
 2. **Install dependencies**
