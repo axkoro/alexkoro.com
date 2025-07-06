@@ -21,30 +21,44 @@
 # Sample configuration for the landing page theme
 # Replace these values with your own!
 
-baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
+baseurl: "" # the subpath of your site, e.g. /repo-name
 
-name: John Doe
-email: your@email.com
-tagline: "A short tagline about yourself."
-description: "A longer description about you or your site."
-github_username: your-github
-linkedin_username: your-linkedin
-resume_url: /assets/resume.pdf
-twitter_username: your-twitter
-blog_url: https://yourblog.com
+name: Alexandre Koroneos
+# email: mail@alexkoro.com
+tagline: "Computer science @ Humboldt University of Berlin"
+# description: "A longer description about you or your site."
+github_username: axkoro
+linkedin_username: alexandre-koroneos
+# resume_url: /assets/resume.pdf
+# twitter_username: your-twitter
+# blog_url: https://yourblog.com
 
 # Portfolio projects (example)
 portfolio:
-  - title: "Project One"
-    description: "A cool project you built."
-    image_url: /assets/project1.jpg
-    demo_url: https://demo1.com
-    github_url: https://github.com/your-github/project1
-  - title: "Project Two"
-    description: "Another awesome project."
-    image_url: /assets/project2.jpg
-    demo_url: https://demo2.com
-    github_url: https://github.com/your-github/project2
+  - title: "graph-impute"
+    description: "A tool for imputing missing features on graph datasets"
+    image_url: /assets/projects/graph-impute.png
+    # demo_url: https://demo1.com
+    github_url: https://github.com/axkoro/graph-impute
+    
+  - title: "OS Fundamentals"
+    description: "Low-level systems programming exercises including bootloader, memory allocator, and a simple shell"
+    image_url: /assets/projects/shell.png
+    # demo_url: https://demo2.com
+    github_url: https://github.com/axkoro/os-exercises
+    
+  - title: "Statistics & Data Science"
+    description: "Statistical analysis projects including Naive Bayes text classification, multivariate regression, and hypothesis testing on real-world datasets"
+    image_url: /assets/projects/naive-bayes.jpg
+    # demo_url: https://demo3.com
+    github_url: https://github.com/axkoro/sds
+    
+  - title: "Scientific Computing"
+    description: "Numerical algorithms and parallel computing with MPI including sparse matrix operations, linear solvers, and distributed sorting"
+    image_url: /assets/projects/scicomp.jpg
+    # demo_url: https://demo4.com
+    github_url: https://github.com/axkoro/scicomp
+
 
 # Build settings
 plugins:
