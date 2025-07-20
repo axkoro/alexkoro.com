@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest">
+
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css">
@@ -16,7 +22,8 @@
             box-sizing: border-box;
         }
 
-        html, body {
+        html,
+        body {
             height: 100%;
             overflow-x: hidden;
         }
@@ -38,6 +45,7 @@
 
     {{ content }}
 </head>
+
 <body>
     <div class="landing-container">
         <div class="content">
@@ -58,12 +66,13 @@
             <p class="section-description">A few projects I've worked on</p>
             <div class="portfolio-grid">
                 {% if site.portfolio %}
-                    {% for project in site.portfolio %}
-                        {% include portfolio-item.html project=project %}
-                    {% endfor %}
+                {% for project in site.portfolio %}
+                {% include portfolio-item.html project=project %}
+                {% endfor %}
                 {% endif %}
             </div>
         </div>
     </div>
 </body>
+
 </html>
