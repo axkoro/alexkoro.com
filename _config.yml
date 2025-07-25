@@ -33,7 +33,7 @@ linkedin_username: alexandre-koroneos
 # twitter_username: your-twitter
 # blog_url: https://yourblog.com
 
-# Portfolio projects (example)
+# Portfolio projects
 portfolio:
   - title: "graph-impute"
     description: "A tool that predicts and adds missing information in network data"
