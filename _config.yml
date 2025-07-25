@@ -36,7 +36,7 @@ linkedin_username: alexandre-koroneos
 # Portfolio projects (example)
 portfolio:
   - title: "graph-impute"
-    description: "A tool for imputing missing features on graph datasets"
+    description: "A tool that predicts and adds missing information in network data"
     image_url: /assets/projects/graph-impute.png
     # demo_url: https://demo1.com
     github_url: https://github.com/axkoro/graph-impute
