@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest">
+    <link rel="icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico" sizes="32x32">
+    <link rel="icon" href="{{ site.baseurl }}/assets/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png"><!-- 180×180 -->
 
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ site.description }}">
@@ -52,7 +51,7 @@
 <body>
     <div class="landing-container">
         <div class="content">
-            <!-- <img src="{{ site.baseurl }}/assets/profile-photo.jpg" alt="Profile Photo" class="profile-photo"> -->
+            <img src="{{ site.baseurl }}/assets/profile-photo.png" alt="Profile Photo" class="profile-photo">
             <h1 class="name">{{ site.name }}</h1>
             <p class="tagline">{{ site.tagline }}</p>
             <p class="description">{{ site.description }}</p>

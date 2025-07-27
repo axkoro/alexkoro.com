@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /repo-name
 
 name: Alexandre Koroneos
 # email: mail@alexkoro.com
-tagline: "Computer science @ Humboldt University of Berlin"
+tagline: "Computer Science @ Humboldt University of Berlin"
 # description: "A longer description about you or your site."
 github_username: axkoro
 linkedin_username: alexandre-koroneos
@@ -41,12 +41,6 @@ portfolio:
     # demo_url: https://demo1.com
     github_url: https://github.com/axkoro/graph-impute
     
-  - title: "OS Fundamentals"
-    description: "Low-level systems programming exercises including bootloader, memory allocator, and a simple shell"
-    image_url: /assets/projects/shell.png
-    # demo_url: https://demo2.com
-    github_url: https://github.com/axkoro/os-exercises
-    
   - title: "Statistics & Data Science"
     description: "Statistical analysis projects including Naive Bayes text classification, multivariate regression, and hypothesis testing on real-world datasets"
     image_url: /assets/projects/naive-bayes.jpg
@@ -59,6 +53,11 @@ portfolio:
     # demo_url: https://demo4.com
     github_url: https://github.com/axkoro/scicomp
 
+  - title: "OS Fundamentals"
+    description: "Low-level systems programming exercises including bootloader, memory allocator, and a simple shell"
+    image_url: /assets/projects/shell.png
+    # demo_url: https://demo2.com
+    github_url: https://github.com/axkoro/os-exercises
 
 # Build settings
 plugins:
