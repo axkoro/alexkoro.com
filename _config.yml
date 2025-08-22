@@ -35,28 +35,34 @@ linkedin_username: alexandre-koroneos
 
 # Portfolio projects
 portfolio:
+  - title: "Don Distillo"
+    description: "An LLM-powered robot for mixing cocktails"
+    image_url: /assets/projects/don-distillo.jpg
+    # demo_url: https://demo.com
+    github_url: https://github.com/DonDistillo-Project/cocktail-robot
+
   - title: "graph-impute"
     description: "A tool that predicts and adds missing information in network data"
     image_url: /assets/projects/graph-impute.png
-    # demo_url: https://demo1.com
+    # demo_url: https://demo.com
     github_url: https://github.com/axkoro/graph-impute
     
   - title: "Statistics & Data Science"
     description: "Statistical analysis projects including Naive Bayes text classification, multivariate regression, and hypothesis testing on real-world datasets"
     image_url: /assets/projects/naive-bayes.jpg
-    # demo_url: https://demo3.com
+    # demo_url: https://demo.com
     github_url: https://github.com/axkoro/sds
     
   - title: "Scientific Computing"
     description: "Numerical algorithms and parallel computing with MPI including sparse matrix operations, linear solvers, and distributed sorting"
     image_url: /assets/projects/scicomp.jpg
-    # demo_url: https://demo4.com
+    # demo_url: https://demo.com
     github_url: https://github.com/axkoro/scicomp
 
   - title: "OS Fundamentals"
     description: "Low-level systems programming exercises including bootloader, memory allocator, and a simple shell"
     image_url: /assets/projects/shell.png
-    # demo_url: https://demo2.com
+    # demo_url: https://demo.com
     github_url: https://github.com/axkoro/os-exercises
 
 # Build settings
