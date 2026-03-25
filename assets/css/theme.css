@@ -172,6 +172,10 @@ body {
     flex-shrink: 0;
 }
 
+.portfolio-icon-expose {
+    transform: translateY(-1px);
+}
+
 .link::before {
     content: '';
     position: absolute;

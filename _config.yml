@@ -35,6 +35,12 @@ linkedin_username: alexandre-koroneos
 
 # Portfolio projects
 portfolio:
+  - title: "LLM-based Analysis of Classroom Interactions"
+    description: "Part of the research project <em>Motivate!</em> at Universität Potsdam"
+    image_url: /assets/projects/motmess-unipotsdam.jpg
+    expose_url: /assets/files/expose_v4.pdf
+    research_project_url: https://www.uni-potsdam.de/en/dfg-projekt-motiv
+
   - title: "Don Distillo"
     description: "An LLM-powered robot for mixing cocktails"
     image_url: /assets/projects/don-distillo.jpg
