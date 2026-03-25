@@ -46,24 +46,7 @@ portfolio:
     image_url: /assets/projects/graph-impute.png
     # demo_url: https://demo.com
     github_url: https://github.com/axkoro/graph-impute
-    
-  - title: "Statistics & Data Science (exercises)"
-    description: "Text classification, linear regression, and statistical analyses on real-world datasets"
-    image_url: /assets/projects/naive-bayes.jpg
-    # demo_url: https://demo.com
-    github_url: https://github.com/axkoro/sds
-    
-  - title: "Scientific Computing (exercises)"
-    description: "Parallel computing and numerical algorithms (MPI routines, sparse matrix operations, linear solvers, and more)"
-    image_url: /assets/projects/scicomp.jpg
-    # demo_url: https://demo.com
-    github_url: https://github.com/axkoro/scicomp
 
-  - title: "OS Fundamentals (exercises)"
-    description: "Low-level systems programming exercises (a simple shell, memory allocator, and bootloader)"
-    image_url: /assets/projects/shell.png
-    # demo_url: https://demo.com
-    github_url: https://github.com/axkoro/os-exercises
 
 # Build settings
 plugins:
