@@ -42,12 +42,12 @@ portfolio:
     research_project_url: https://www.uni-potsdam.de/en/dfg-projekt-motiv
 
   - title: "Don Distillo"
-    description: "An LLM-powered robot for mixing cocktails"
+    description: "An LLM-powered cocktail robot"
     image_url: /assets/projects/don-distillo.jpg
     # demo_url: https://demo.com
     github_url: https://github.com/DonDistillo-Project/cocktail-robot
 
-  - title: "graph-impute"
+  - title: "Graph Impute"
     description: "A tool that predicts and adds missing information in network data"
     image_url: /assets/projects/graph-impute.png
     # demo_url: https://demo.com
