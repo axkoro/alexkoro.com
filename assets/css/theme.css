@@ -170,9 +170,6 @@ body {
     width: 16px;
     height: 16px;
     flex-shrink: 0;
-}
-
-.portfolio-icon-expose {
     transform: translateY(-1px);
 }
 
